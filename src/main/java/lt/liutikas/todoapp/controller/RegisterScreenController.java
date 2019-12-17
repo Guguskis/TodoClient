@@ -28,7 +28,7 @@ public class RegisterScreenController extends Controller {
 	private void handleRegistration(Person personToRegister) throws FileNotFoundException {
 		try {
 			appManager.register(personToRegister);
-			viewManager.changeScene("LoginScreen");
+			clientApplication.changeScene("LoginScreen");
 		} catch (DuplicateException e) {
 			//Todo add warning window
 			System.out.println("Username taken");

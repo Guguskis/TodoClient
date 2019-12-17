@@ -7,9 +7,9 @@ import lt.liutikas.todoapp.exceptions.FileNotFoundException;
 import lt.liutikas.todoapp.service.AppManager;
 
 
-public class ViewManager extends Application {
+public class ClientApplication extends Application {
 
-    private static ViewManager instance;
+    private static ClientApplication instance;
 
     private static final int SCREEN_WIDTH = 800;
     private static final int SCREEN_HEIGHT = 600;
@@ -22,7 +22,7 @@ public class ViewManager extends Application {
         launch(args);
     }
 
-    public static ViewManager getInstance() {
+    public static ClientApplication getInstance() {
         return instance;
     }
 

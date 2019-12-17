@@ -54,7 +54,7 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
-                    <mainClass>lt.liutikas.todoapp.ViewManager</mainClass>
+                    <mainClass>lt.liutikas.todoapp.ClientApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
